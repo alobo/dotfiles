@@ -7,3 +7,8 @@ DOTFILES=$(dirname "${BASH_SOURCE}")
 for filename in /$DOTFILES/functions/*.*; do
     source $filename
 done
+
+# Source all variables
+for filename in /$DOTFILES/variables/*.*; do
+    source $filename
+done
