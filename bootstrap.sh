@@ -7,7 +7,7 @@ export PATH=$PATH:/Users/${USER}/Library/Android/sdk/platform-tools/
 export PATH=$PATH:/Users/${USER}/Library/Java/Home
 
 # Get the dotfiles directory
-DOTFILES=$(dirname "${BASH_SOURCE}")
+export DOTFILES=$(dirname "${BASH_SOURCE}")
 
 source /$DOTFILES/aliases.sh
 
